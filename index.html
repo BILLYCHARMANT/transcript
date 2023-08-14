@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       td{
+        border: none;
+       } 
+    </style>
+</head>
+<body>
+   
+
+
+<script  >
+    let title="COLLEGE OF SCIENCE AND TECHNOLOGY";
+    let title2="SCHOOL OF ICT(SoICT)";
+    let title3="PROVISIONAL STATEMENT OF RESULTS";
+    let title4="UR/CST/(SoICT)/12/12/2023";
+    let title5="DEPARTMENT:COMPUTER AND SOFTWARE ENGINEERING";
+    let title6=" PROGRAM: COMPUTER ENGINNEERING";
+    let title7=" CAMPUS: NYARUNGEGE";
+    
+
+
+    
+    
+    document.write("<center><h1>"+ title + "<h1></center><hr>");
+    document.write("<center><h4>"+ title2 + "<h4></center>");
+    document.write("<h4>"+ title3 + "<h4>");
+    document.write("<h4>"+ title4 + "<h4>");
+    document.write("<h4>"+ title5 + "<h4>");
+    document.write("<h4>"+ title6 + "<h4>");
+    document.write("<h4>"+ title7 + "<h4>");
+
+   
+    
+   
+   
+</script>
+<table border="1" style="border-collapse: collapse;" width="400" height="100">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>regnumber</th>
+    </tr>
+    <tr>
+        <td id="fname" style="text-align: center;"> </td>
+        <td id="lname" style="text-align: center;" ></td>
+        <td id="regnumber" style="text-align: center;"></td>
+    </tr>
+   </table>
+   <table id="mytable" border="1" style="border-collapse: collapse; margin-top: 50px;" >
+    <tr>
+        <th colspan="5"><center>First Trimester</center></th>
+        <th colspan="5"><center>First Trimester</center></th>
+        
+    </tr>
+    <tr>
+        <th>Module code</th>
+        <th>Module title</th>
+        <th>Credit</th>
+        <th>Marks</th>
+        <th>Grade</th>
+        <th>Module code</th>
+        <th>Module title</th>
+        <th>Credit</th>
+        <th>Marks</th>
+        <th>Grade</th>
+        
+    </tr>
+    <tr>
+        <td id>CSC1163</td>
+        <td>ICT Skills</td>
+        <td >10</td>
+        <td id="ictmarks"></td>
+        <td id="ictgrade"></td>
+        <td>EGP</td>
+        <td>English for General Purpose</td>
+        <td>10</td>
+        <td id="englishmarks"></td>
+        <td id="englishgrade" ></td>
+        
+        
+    </tr>
+    <tr><td>MAT1166</td>
+        <td>Mathematics for Engineering |</td>
+        <td>10</td>
+        <td id="math1marks"></td>
+        <td id="math1grade" ></td>
+        <td>MAT1264</td>
+        <td>Mathematics for Engineering ||</td>
+        <td>10</td>
+        <td id="math2marks"></td>
+        <td id="math2grade"></td>
+    </tr>
+    <tr>
+        <td>PHY1163</td>
+        <td>Physics for Engineering |</td>
+        <td>10</td>
+        <td id="Physics1marks"></td>
+        <td id="Physics1grade" ></td>
+        <td>PHY1164</td>
+        <td>Physics for Engineering ||</td>
+        <td>10</td>
+        <td id="Physics2marks"></td>
+        <td id="Physics2grade"></td>
+    </tr>
+    <tr>
+        <td>ELE1161</td>
+        <td>Network Analysis</td>
+        <td>10</td>
+        <td id="netmarks"></td>
+        <td id="netgrade"></td>
+        <td>MEE1167</td>
+        <td>Engineering Drawing and CAD</td>
+        <td>10</td>
+        <td id="engmarks"></td>
+        <td id="enggrade"></td>
+    </tr>
+    <tr>
+        <td>TWP1161</td>
+        <td> Training Workshop</td>
+        <td>10</td>
+        <td id="trainingmarks"></td>
+        <td id="traininggrade"></td>
+        <td>CSC</td>
+        <td> Computer Programming C</td>
+        <td>10</td>
+        <td id="compmarks"></td>
+        <td id="compgrade"></td>
+    </tr>
+    <tr>
+        <td>ETE1161</td>
+        <td>Analog Electric Circuit</td>
+        <td>10</td>
+        <td id="anamarks"></td>
+        <td id="anagrade"></td>
+        <td>CSC</td>
+        <td>Discrete Structures for Computing</td>
+        <td>10</td>
+        <td id="discmarks"></td>
+        <td id="discgrade"></td>
+    </tr>
+    <tr>
+        <td colspan="5" rowspan="3"></td>
+        <!-- <td></td>
+        <td></td>
+        <td></td> -->
+        <td>COE1263</td>
+        <td>Digital Electronic Circuit</td>
+        <td>10</td>
+        <td id="digmarks"></td>
+        <td id="diggrade"></td>
+        
+    </tr>
+    <tr>
+       
+       
+        <td>COE</td>
+        <td>Database System</td>
+        <td>10</td>
+        <td id="datamarks"></td>
+        <td id="datagrade"></td>
+
+    </tr>
+    <tr>
+       
+       
+        <td>CTE</td>
+        <td>Citizenship and Transformative Education </td>
+        <td>10</td>
+        <td id="citmarks"></td>
+        <td id="citgrade"></td>
+    </tr>
+    <tr>
+        <th colspan="2"> Total Credit Hours level</th>
+        <th id="totcredit" colspan="8" style="text-align:center" ></th>
+    </tr>
+    <tr>
+        <th colspan="2"> Average Annually marks(%)</th>
+        <th id="Annually" colspan="8" style="text-align:center"></th>
+    </tr>
+    <tr>
+        <th colspan="2">Total Module Retake </th>
+        <th id="totretake" colspan="8"></th>
+    </tr>
+    <tr>
+        <th colspan="2">Remarks </th>
+        <th id="remarks" colspan="8"></th>
+    </tr>
+</table>
+<script src="/other-files/transcript.js" ></script>
+</body>
+</html>
